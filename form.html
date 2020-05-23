@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>«Pink»</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="#" alt="Pink">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Конкурсы</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <main class="page-main-form">
+      <h1 class="page-main-form__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+
+      <section class="competition">
+        <p class="competition__history">
+          Поделитесь своей историей и получите
+          шанс выиграть ценный приз — 1000
+          миль на вашу бонусную карту!
+        </p>
+        <form action="#" class="competition__form" method="POST">
+          <div class="competiton__item">
+            <label class="competition__surname" for="competition__surname" type="text">Фамилия</label>
+            <input id="competition__surname" name="competition__surname" placeholder="Укажите фамилию *" type="text">
+          </div>
+          <div class="competiton__item">
+            <label class="competition__name" for="competition__name" type="text">Имя</label>
+            <input id="competition__name" name="competition__name" placeholder="Введите ваше имя *" type="text">
+          </div>
+          <div class="competiton__item">
+            <label class="competition__middle-name" for="competition__middle-name" type="text">Отчество</label>
+            <input id="competition__middle-name" name="competition__middle-name" placeholder="Ну и отчество тоже"
+              type="text">
+          </div>
+        </form>
+      </section>
+
+      <section class="progress">
+        <div class="progress__control">
+          <p class="progress__travel">
+            ВАШИ БЕЗБАШЕННЫЕ
+            ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ
+          </p>
+          <label class="progress__checkbox">
+            <input name="selfie" type="checkbox" checked>Сделал селфи с акулой
+          </label>
+          <label class="progress__checkbox">
+            <input name="beach" type="checkbox" checked>Обгорез на пляже
+          </label>
+          <label class="progress__checkbox">
+            <input name="noris" type="checkbox">Видел Чака Норриса
+          </label>
+          <label class="progress__checkbox">
+            <input name="suvenir" type="checkbox">Накупил Сувениров
+          </label>
+          <label class="progress__checkbox">
+            <input name="tower" type="checkbox" checked>Удержал башню
+          </label>
+          <label class="progress__checkbox">
+            <input name="hotel" type="checkbox">Разгромил отель
+          </label>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <form action="#" class="contacts__form" method="POST">
+          <div class="contacts___item">
+            <p class="contacts__info">
+              КОНТАКТНАЯ ИНФОРМАЦИЯ
+            </p>
+            <label class="contacts___mobile" for="contacts___mobile" type="text">НОМЕР ТЕЛЕФОНА</label>
+            <input id="contacts___mobile" name="contacts___mobile" placeholder="Номер, пожалуйста" type="text">
+          </div>
+          <div class="contacts__item">
+            <label class="contacts__mail" for="contacts__mail" type="text">АДРЕС ПОЧТЫ</label>
+            <input id="contacts__mail" name="contacts__mail" placeholder="Введите почту *" type="text">
+          </div>
+        </form>
+      </section>
+
+      <section class="travel-app">
+        <h3 class="visuallu-hidden">С каким приложением путешествовали?</h3>
+        <form action="#" class="travel-app__form" method="POST">
+          <div class="travel-app__choice">
+            <label class="travel-app__item">
+              <input class="tarvel-app__ios" name="radio-button" type="radio" value="Pink для iOS" checked>Pink для
+              iOS</label>
+        </div>
+        <div class="travel-app__choice">
+          <label class="travel-app__item">
+            <input class="tarvel-app__android" name="radio-button" type="radio" value="Pink для Android">Pink для
+            Android</label>
+          </form>
+        </div>
+        <div class="travel-app__choice">
+          <label class="travel-app__item">
+            <input class="tarvel-app__windows" name="radio-button" type="radio" value="Windows Phone">Windows
+            Phone</label>
+          </form>
+        </div>
+      </section>
+
+      <section class="travel-answer">
+        <h3 class="visually-hidden">Опишите свои эмоции</h3>
+        <form action="#" class="travel-answer__form" method="POST"></form>
+        <div class="travel-answer__item">
+          <label class="travel-answer__emotion" for="answer-form-text">ОПИШИТЕ СВОИ ЭМОЦИИ</label>
+          <textarea id="answer-form-text" name="answer-form-text"
+            placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </div>
+        <button class="button button-answer" type="submit">ОТПРАВИТЬ ФОРМУ</button>
+        <small class="travel-answer__fields travel-answer__fields--bottom">
+          <sup>*</sup> — ОБЯЗАТЕЛЬНЫЕ ПОЛЯ
+        </small>
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__socials socials">
+        <a class="page-footer__logo">
+          <img class="page-footer__logo-image" src="#" alt="Pink">
+        </a>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="https://twitter.com">Мы в Твиттере</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com">Мы в Ютюбе</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__text">Разработано:</p>
+        <a class="button copyright__link" href="https://htmlacademy.ru">HTML Academy
+          <img class="copyright__img" src="#">
+        </a>
+      </div>
+    </footer>
+
+</body>
+
+</html>
