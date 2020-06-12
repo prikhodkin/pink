@@ -1,5 +1,13 @@
-"use strict"
-$('.menu__btn').click(() => {
-    $('.menu__hamburger').toggleClass('menu__hamburger--active');
-});
+modules.define('menu', ['i-bem-dom'], function(provide, bemDom) {
 
+provide(bemDom.declBlock(this.name, {
+    onSetMod: {
+        js: {
+            inited: function() {
+                
+            }
+        }
+    }
+}));
+
+});

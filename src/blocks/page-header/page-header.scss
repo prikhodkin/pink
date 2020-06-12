@@ -1,0 +1,12 @@
+.page-header {
+ 
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;  
+  background-image: url(../img/back-mobile.jpg);
+  background-size: cover;
+
+  .page-header__logo-image {
+    display: none;
+  }
+}

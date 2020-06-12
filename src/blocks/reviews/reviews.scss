@@ -1,0 +1,26 @@
+.reviews {
+    font-size: 14px;
+    line-height: 30px;
+    color: #283645;
+    text-align: center;
+}
+
+.reviews__list {
+    padding: 0 39px;
+    list-style: none;
+}
+
+.reviews__name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.reviews__age-work {
+    display: none;
+}
+
+.reviews__prev,
+.reviews__next {
+    display: none;
+}

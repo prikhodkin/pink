@@ -1,0 +1,35 @@
+.download-app {
+    color: #ffffff;
+    background-image: url(../img/back-download.png);
+}
+
+.download-app__list {
+    padding: 0 58px;
+    margin: 32px 0 0 0;
+    display: flex;   
+    justify-content: center;
+}
+
+.download-app__compatibility {
+    padding: 28px 35px 35px 35px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c3c5c8;
+    text-align: center;
+}
+
+.download-app__title {
+    display: none;
+}
+
+.download-app__image {
+    width: 43px;
+    height: 47px;
+    padding: 0 34px 0 0;
+}
+
+.download-app__toggle {
+    top: 30px;
+    left: 15px;
+}

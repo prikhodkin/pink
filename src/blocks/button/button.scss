@@ -1,0 +1,20 @@
+.button {
+    position: relative;
+    display: inline-flex;
+    padding: 18px 35px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+    text-align: center;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    transition: all 0.4s; 
+
+    &:hover {
+        color: #d22856;
+        background-color: #ffffff;
+    }
+    
+}
+
