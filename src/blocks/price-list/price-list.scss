@@ -1,0 +1,27 @@
+.price-list {
+    font-size: 18px;
+    color: #283645;
+}
+
+.price-list__cost {
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.price-list__name {
+    display: table-row;
+}
+
+.price-list__tariff {
+    display: table-cell;
+    text-align: center;
+    border: none;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.price-list__included {
+    display: table-cell;
+}

@@ -1,7 +1,7 @@
 .advantages {
-  width: 320px;
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
 }
 
 .advantages__quastion {
@@ -23,10 +23,7 @@
 }
 
 .advantages__list {
-  padding: 0;
-  margin: 0;
   list-style: none;
- 
 }
 
 .advantages__title {
@@ -34,7 +31,7 @@
   font-weight: 700;
   line-height: 24px;
   margin: 0;
-  padding: 0 49px;
+  padding: 0 48px;
   text-align: center;
 }
 

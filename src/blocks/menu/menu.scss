@@ -1,0 +1,51 @@
+.menu__btn {
+  font-size: 0;
+  width: 50px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menu__hamburger {
+  display: block;
+  position: relative;
+  height: 4px;
+  background-color: #fff;
+  transition: all 0.3s;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    background-color: #fff;
+    transition: all 0.3s;
+  }
+
+  &::before {
+    top: -8px;
+  }
+
+  &::after {
+    bottom: -8px;
+  }
+
+  &--active {
+    background-color: transparent;
+
+    &::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      bottom: 0;
+      transform: rotate(-45deg);
+    }
+  }
+}

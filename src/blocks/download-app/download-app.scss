@@ -1,22 +1,17 @@
 .download-app {
-    width: 320px;
-    margin: 0;
-    padding: 0;
     color: #ffffff;
-    box-sizing: border-box;
     background-image: url(../img/back-download.png);
 }
 
 .download-app__list {
     padding: 0 58px;
     margin: 32px 0 0 0;
-    list-style: none;
     display: flex;   
+    justify-content: center;
 }
 
 .download-app__compatibility {
-    margin: 0;
-    padding: 28px 46px 35px 45px;
+    padding: 28px 35px 35px 35px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -32,4 +27,9 @@
     width: 43px;
     height: 47px;
     padding: 0 34px 0 0;
+}
+
+.download-app__toggle {
+    top: 30px;
+    left: 15px;
 }
